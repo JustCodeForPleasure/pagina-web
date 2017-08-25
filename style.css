@@ -1,3 +1,60 @@
 body{
-	background: #ccc;
+	background: #fff;
 }
+
+header{
+	position: absolute;
+	width: 100%;
+	background-color: #B1F9B8;
+	border-bottom: thick dotted #FF3636;
+}
+header h1{
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
+	font-style: normal;
+	text-align: center;
+	color: #FF3636;
+}
+
+header h2{
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	color: #51A5F3;
+}
+
+nav{
+	position: relative;
+	height: auto;
+	width: 100%;
+	margin-left: 0px;
+}
+
+nav ul{
+	position: relative;
+	margin-left: 0px;
+	padding: 0;
+	text-align: center;
+}
+
+
+
+nav ul li{
+	padding: 0px 10px;
+	font-size: 15px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #FF3636;
+}
+
+nav ul li a:hover{
+	text-decoration: none;
+	color: #51A5F3;
+	transition-duration: 1s;
+}
+
+
